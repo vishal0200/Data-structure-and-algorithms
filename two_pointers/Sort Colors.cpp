@@ -46,12 +46,16 @@ public:
 };
 
 int main(){
+    // 1. Create a test case
     vector<int> nums{2, 0, 2, 1, 1, 0};
 
+    // 2. Instantiate the class
     Solution sol;
 
+    // 3. Call the function (No return value, it modifies 'nums' directly)
     sol.sortColors(nums);
 
+    // 4. Print the result using a for-each loop (modern C++)
     cout << "Modifies Array : ";
     for(int i : nums){
         cout << i << " ";
@@ -60,3 +64,6 @@ int main(){
 
     return 0;
 }
+
+//time complexity - O(n)
+//space complexity - O(1)
