@@ -67,3 +67,6 @@ int main(){
 
 //time complexity - O(n)
 //space complexity - O(1)
+
+/*This question specifically focuses on how to handle three different pointers to get to the 
+solution*/
