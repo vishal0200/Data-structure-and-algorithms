@@ -45,12 +45,12 @@ public:
 
 int main() {
     vector<int> nums{0, 1, 2, 2, 3, 0, 4, 2};
-    int valToRemove = 2; // You need to define what to remove!
+    int valToRemove = 2; 
 
     Solution sol;
 
-    // Fix 1: Pass both arguments. 
-    // Fix 2: Store the return value in an 'int', not a 'vector'.
+    // Pass both arguments. 
+    // Store the return value in an 'int', not a 'vector'.
     int newLength = sol.removeElement(nums, valToRemove);
 
     cout << "New length of array: " << newLength << endl;
